@@ -1,0 +1,70 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #ffffff;
+  --accent-color: #2196f3;
+  --text-color: #757575;
+}
+
+body {
+  background-color: var(--title-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+/*<!--Шапка сайта-- > */
+.logo {
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.logo-blue {
+  color: var(--accent-color);
+}
+
+.logo-black {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover {
+  color: var(--accent-color);
+}
+
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-contacts .link {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--text-color);
+}
+
+.site-contacts .link:hover {
+  color: var(--accent-color);
+}
+.site-contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/*<!--Герой-- > */
+.button {
+  color: var(--primary-text-color);
+  background-color: var(--primary-text-color);
+}
+
+.button.primary {
+  color: var(--title-text-color);
+  background-color: var(--accent-color);
+}
