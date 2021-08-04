@@ -1,0 +1,248 @@
+/* вторичный цвет текста  #212121    черный*/
+/* основной цвет текста  #757575     серый*/
+/* доп цвет текста  #FFFFFF    белый*/
+/* основной акцентный цвет эффектов выделения  #2196F3    голубой*/
+/* цвет иконок и вторичного фона #AFB1B8 светло-серый*/
+
+/*General styles */
+:root {
+    --primary-text-color: #AFB1B8;
+    --secondary-text-color: #212121;
+    --additional-text-color: #757575;
+    --accent-color: #2196F3;
+    --main-background-color: #FFFFFF;
+    --logo-color: #000000;
+    --button-nav-color: #F5F4FA;
+    --footer-color: #2F303A;
+}
+body {
+    background-color: #FFFFFF;
+    color: #AFB1B8;
+
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+
+    
+    /* полное обнуление маржина*/
+    margin: 0;
+}
+
+.list {
+    list-style: none;
+}
+
+/* Header styles*/
+
+.page-header .logo {
+   color: var(--logo-color);
+    text-decoration: none;
+
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.page-header .blue {
+    color: var(--accent-color);
+}
+
+.page-nav .link {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.page-nav .link:hover {
+    color: var(--accent-color);
+}
+
+.page-nav .link.current {
+    color: var(--accent-color);
+}
+
+.contacts-nav .contacts-link {
+    color: var(--additional-text-color);
+    text-decoration: none;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.contacts-link:hover, 
+.contacts-link:focus  {
+    color: var(--accent-color);
+}
+
+
+/* Hero block*/
+.hero-title {
+    color: var(--main-background-color);
+
+    font-style: normal;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hero .btn {
+    /* font-size: 24px; */
+}
+
+.btn {
+    color: var(--main-background-color);
+    background-color: var(--accent-color);
+    border: none;
+
+    font-family: inherit;
+}
+
+/* Advantages block*/
+
+.features-nav .title {
+    color: var(--secondary-text-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+}
+
+.features-nav .text {
+    color: var(--additional-text-color);
+
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.section-title {
+    color: var(--secondary-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.team {
+    background-color: var(--button-nav-color);
+}
+/* Clients*/
+
+.client-nav .item:hover{
+    color: var(--accent-color);
+}
+/* Our Team*/
+
+.team-nav .title {
+    color: var(--secondary-text-color);
+}
+/* Footer styles*/ 
+
+.page-footer .logo {
+   color: var(--logo-color);
+    text-decoration: none;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.page-footer .blue {
+    color: var(--accent-color);
+}
+
+.page-footer .white {
+    color: var(--main-background-color);
+}
+
+.page-nav .cont-link {
+    color: var(--primary-text-color);
+    text-decoration: none;
+
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.page-nav .contacts-link:hover {
+    color: var(--accent-color);
+}
+
+.bgc {
+    background-color: var(--footer-color);
+}
+
+.addr {
+    color: var(--main-background-color);
+}
+
+.sign {
+    color: var(--main-background-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+
+
+/* Стили для portfolio.html*/
+
+.project-nav .decor {
+    text-decoration: none;
+}
+
+.project-nav .title {
+    color: var(--secondary-text-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+}
+
+.project-nav .text {
+    color: var(--additional-text-color);
+
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+.project-nav .accent {
+    color: var(--main-background-color);
+    background-color: var(--accent-color);
+
+    font-size: 18px;
+    line-height: 1.56;
+
+}
+
+.button-nav {
+    list-style-type: none;
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+}
+.list-nav {
+    color: var(--secondary-text-color);
+    background-color: var(--button-nav-color);
+
+}
+
+.button-nav .list-nav:hover,
+.button-nav .list-nav:focus {
+    background-color: var(--accent-color);
+    color: var(--main-background-color);
+}
